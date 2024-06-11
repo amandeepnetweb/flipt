@@ -56,3 +56,4 @@ devenv.local.nix
 
 build/mage_output_file.go
 *.rego
+config.bat
