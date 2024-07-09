@@ -11,7 +11,6 @@ _test
 .idea
 .ruby-version
 .vagrant
-.vscode/*
 !.vscode/launch.json
 !.vscode/tasks.json
 !.vscode/extensions.json
@@ -55,4 +54,7 @@ devenv.local.nix
 .pre-commit-config.yaml
 
 build/mage_output_file.go
+
 *.rego
+!**/**/testdata/*.rego
+config.bat
